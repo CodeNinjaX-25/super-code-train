@@ -1,0 +1,88 @@
+.nav-bar .nav-links a:hover{
+    color: aquamarine;
+}
+
+.quote button:hover{
+    cursor: pointer;
+    background-color: transparent;
+    color: aqua;
+    box-shadow: 0 0 10px aquamarine, 0 0 40px aquamarine, 0 0 60px aquamarine;
+}
+
+svg:hover{
+
+    cursor: pointer;
+
+}
+
+.hero-buttons .one:hover, .hero-buttons .two:hover, .profile .profile-content button:hover,
+.recent-works button:hover, .contact button:hover{
+
+    cursor: pointer;
+    background-color: transparent;
+    color: aqua;
+    box-shadow: 0 0 10px aquamarine, 0 0 40px aquamarine, 0 0 60px aquamarine;
+
+}
+
+.hero-content h1 span{
+    animation: color-switch 1s linear 0.3s infinite;
+}
+
+@keyframes color-switch {
+    0%{
+        color: cornflowerblue;
+    }
+
+    20%{
+        color: crimson;
+    }
+
+    60%{
+        color: coral;
+    }
+
+    80%{
+        color: darkturquoise;
+    }
+
+    100%{
+        color: greenyellow;
+    }
+}
+
+.skills-section .card-container .card:hover{
+    cursor: pointer;
+    border: 3px solid aquamarine;
+    box-shadow: 0 0 10px aquamarine, 0 0 40px aquamarine, 0 0 60px aquamarine;
+    animation: shadow-change 1s linear 0s infinte;
+}
+
+@keyframes shadow-change {
+
+    0%{
+        border: 3px solid cornflowerblue;
+        box-shadow: 0 0 10px cornflowerblue, 0 0 40px cornflowerblue, 0 0 60px cornflowerblue;
+    }
+
+    20%{
+        border: 3px solid crimson;
+        box-shadow: 0 0 10px crimson, 0 0 40px crimson, 0 0 60px crimson;
+    }
+
+    60%{
+        border: 3px solid coral;
+        box-shadow: 0 0 10px coral, 0 0 40px coral, 0 0 60px coral;    
+    }
+
+    80%{
+        border: 3px solid darkturquoise;
+        box-shadow: 0 0 10px darkturquoise, 0 0 40px darkturquoise, 0 0 60px darkturquoise;
+    }
+
+    100%{
+        border: 3px solid greenyellow;
+        box-shadow: 0 0 10px greenyellow, 0 0 40px greenyellow, 0 0 60px greenyellow;
+    }
+
+}
